@@ -1,0 +1,12 @@
+.navbar-item img {
+    height: auto !important;
+}
+
+.title-trailer {
+    font-size: 15pt;
+    text-transform: uppercase;
+    display: block;
+    color: #58c4d8;
+    font-weight: normal;
+    padding-left: 3px;
+}

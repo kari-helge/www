@@ -1,0 +1,149 @@
+baseURL: http://something-fresh.org/
+languageCode: en-us
+title: Hugo Fresh Theme
+theme: hugo-fresh
+
+params:
+  navbarlogo:
+   image: logo.png
+   link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Kari & Helge
+    titletrailer: Råd og veiledning
+    # Hero subtitle (optional)
+    subtitle: To flotte mennesker som er bautaer på hvert sitt område—familieveiledning og konsulentvirksomhet.
+    # Button text
+    buttontext: Kontakt oss
+    # Where the main hero button links to
+    buttonlink: "#"
+    # Hero image (from static/images/___)
+    image: people.jpg
+    # Footer logos (from static/images/logos/clients/___.svg)
+    # clientlogos:
+    # - systek
+    # - tribe
+    # - kromo
+    # - infinite
+    # - gutwork
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Familieveiledning
+    url: /
+  - title: Konsulentvirksomhet
+    url: /
+  - title: Om oss
+    sublinks:
+    - title: Dropdown item
+      url: /
+    - title: Dropdown item
+      url: /
+    - title: Dropdown item
+      url: /
+  - title: Kontakt oss
+    url: /
+    button: true
+  section1:
+    title: Forståelse
+    subtitle: er mektigere enn regler
+    tiles:
+    - title: Familieveiledning
+      icon: compass
+      text: Kartlegging, veiledning og oppfølging av famile.
+      url: /
+      buttonText: Kontakt oss
+    - title: Konsulentvirksomhet
+      icon: lighthouse
+      text: Innkjøp, eigedomsskatt, digitalisering, mm.
+      url: /
+      buttonText: Get started
+    - title: Møtelokaler
+      icon: window
+      text: Catering, møteledelse og lokaler.
+      url: /
+      buttonText: Get started
+  section2:
+    title: Kari og Helge er bautaer på hvert sitt område
+    subtitle: Og sammen driver de småbruk med 21 villsau
+    features:
+    - title: Powerful and unified interface
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: window
+    - title: Cross-device synchronisation
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: doc-sync
+    - title: Nomad system
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: mobile-feed
+  section3:
+    title: Kulturløo på Drange
+    subtitle: Historisk museum i Uggdal med stor samling av redskap og utstyr fra gardsdrift 1850—1950
+    image: kulturloo.jpg
+    buttonText: Book omvisning eller andre anledninger
+    buttonLink: "#"
+  section4:
+    title: Fornøyde kunder
+    subtitle: Dette er kun noen av våre tilbakemeldinger…
+    clients:
+    - name: Truls Tørrevikjo
+      quote: Når lille Oscar ikke lenger responderte på timeouts og snop-nekt, hjalp Kari oss.
+      job: Trebarnsfar
+      img: 1
+    - name: Malvin Meland
+      quote: Vi hadde vår årlige pensjonistsamling i de fantastiske lokalene på Kulturløo. Herlig lokal mat, og livlig vertskap.
+      job: Pensjonert sjømann
+      img: 2
+    - name: Bjarne Beltestad
+      quote: Helge reiste helt opp her i nord for å hjelpe oss å få orden i systemene for eiendomskatt i Smikka kommune. Nå har vi investert 100 mill i Terra-fond.
+      job: Rådmann
+      img: 3
+  section5: false
+  footer:
+    # Logo (from /images/logos/___)
+    logo: logo.png
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/lucperkins/github-fresh
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://dribbble.com/#
+      icon: dribbble
+    - link: https://facebook.com/#
+      icon: facebook
+    - link: https://twitter.com/lucperkins
+      icon: twitter
+    - link: https://bitbucket.org/#
+      icon: bitbucket
+    bulmalogo: true
+    quicklinks:
+      column1:
+        title: "Kari"
+        links:
+        - text: Familieveiledning
+          link: /
+        - text: Hjelp med søvnen
+          link: /
+        - text: Hedvig har ofte rett
+          link: /
+      column2:
+        title: "Helge"
+        links:
+        - text: Offentlig innkjøp
+          link: /
+        - text: Eigedomsskatt
+          link: /
+        - text: Digitalisering
+          link: /
+        - text: Næringsetablering
+          link: /
+      column3:
+        title: "Om"
+        links:
+        - text: Bakgrunn
+          link: /blog/first
+        - text: Forgrunn
+          link: /blog/second
